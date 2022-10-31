@@ -11,3 +11,5 @@ Route::get('/', function () {
 Route::get('/adatok',function(){
     return view("adatok");
 });
+
+Route::get('/formos',[Adatok::class, "form"]);
