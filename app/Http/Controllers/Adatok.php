@@ -34,6 +34,6 @@ class Adatok extends Controller
             ]);
             DB::insert("INSERT INTO adatok ( vezeteknev, keresztnev, szul_ev) VALUES (?,?,?)",[$req->get('vezetéknév'),$req->get('keresztnév'),$req->get('szul_ev')]);
 
-            return redirect("/adatok")-> with("Kész", "Az adat bevitel sikeres");
+            return redirect("/form")-> with("Kész", "Az adat bevitel sikeres");
     }
 }

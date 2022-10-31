@@ -3,7 +3,7 @@
   
 @section('content')
 
-<div class="container">
+<div class="container-fluid bg-dark text-white" >
     <div class="row">
         <div class="col-6">
             <form method="POST">
@@ -13,7 +13,7 @@
                 </div>
                 @endif
                 @csrf
-                <div class="my-3">
+                <div class="my-5" >
                     <label for="vezeteknev">Vezetéknév:</label>
                     <input type="text" id="vezetéknév" name="vezetéknév" class="form-control" value="{{old('vezetéknév')}}">
                     @error('vezetéknév')
