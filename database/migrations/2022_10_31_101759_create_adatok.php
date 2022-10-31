@@ -14,8 +14,11 @@ return new class extends Migration
     public function up()
     {
         Schema::create('adatok', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id("a_id");
+            $table->string("vezeteknev", 150);
+            $table->string("keresztnev", 150);
+            $table->date("szul_ev");
+            
         });
     }
 
