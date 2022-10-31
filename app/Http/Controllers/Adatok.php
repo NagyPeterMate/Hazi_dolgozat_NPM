@@ -12,4 +12,13 @@ class Adatok extends Controller
     public function form(){
         return view("form");
     }
+    public function rogzites(Request $req){
+        $req->validate(
+            [
+                ""
+            ],
+            [
+
+            ]);
+    }
 }

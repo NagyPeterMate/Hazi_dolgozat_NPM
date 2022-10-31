@@ -12,4 +12,5 @@ Route::get('/adatok',function(){
     return view("adatok");
 });
 
-Route::get('/formos',[Adatok::class, "form"]);
+Route::get('/form',[Adatok::class, "form"]);
+Route::post('/form',[Adatok::class, "rogzites"]);

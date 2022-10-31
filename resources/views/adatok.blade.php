@@ -1,6 +1,7 @@
 @extends('layouts.master')
-@section('title',"Vezetéknév")
+@section('title',"Házi dolgozat")
   
 @section('content')
-    <h1>Hello</h1>
+    <h1>Házi dolgozat</h1> 
+        <h2>Készítette:Nagy Péter Máté</h2>
 @endsection

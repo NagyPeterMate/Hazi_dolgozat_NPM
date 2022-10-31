@@ -3,13 +3,10 @@
     
          <ul>
             <li class="nav-item">
-                <a href="" class="nav-link">Menü</a>
+                <a href="./form" class="nav-link">Form</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Menü2</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">Menü3</a>
+                <a href="./adatok" class="nav-link">Főoldal</a>
             </li>
          </ul>
     </div>
