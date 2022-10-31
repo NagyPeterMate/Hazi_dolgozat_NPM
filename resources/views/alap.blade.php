@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title',"Vezetéknév")
+@section('title',"Űrlap")
   
 @section('content')
 <h1>Vezetéknév</h1>
